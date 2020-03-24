@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1 initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+
+    <title>Вакансии | Germanyzav</title>
+
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<!-- Begin header -->
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-3 col-xs-8">
+                <a href="/" class="header__logo">
+                    <img src="img/logo.png" alt="Germanyzav">
+                </a>
+            </div>
+            <div class="col-lg-7 col-md-8 col-xs-4">
+                <nav class="header__nav">
+                    <ul>
+                        <li><a href="/">Главная</a></li>
+                        <li class="current-menu-item"><a href="vacancies.html">Вакансии</a></li>
+                        <li><a href="often-questions.html">Вопрос-ответ</a></li>
+                        <li><a href="registration.html">Регистрация</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header__languages-mobile">
+                    <a href="#" class="active">Рус</a>
+                    <a href="#">Укр</a>
+                </div>
+                <div class="header__social-mobile">
+                    <div class="social-list">
+                        <a href="#" class="social-item social-item_telegram"></a>
+                        <a href="#" class="social-item social-item_facebook"></a>
+                        <a href="#" class="social-item social-item_instagram"></a>
+                    </div>
+                </div>
+                <div class="mobile-menu"></div>
+            </div>
+            <div class="col-lg-1 col-md-1">
+                <div class="header__languages">
+                    <select>
+                        <option selected>Рус</option>
+                        <option>Укр</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- // -->
+<main>
+    <!-- Begin vacancies -->
+    <section class="vacancies">
+        <div class="container">
+            <div class="vacancies-categories">
+                <div class="row">
+                    <div class="vacancies-categories__item active">
+                        <a href="#">
+                            <h5>Все</h5>
+                            <h6>вакансии</h6>
+                        </a>
+                    </div>
+                    <div class="vacancies-categories__item">
+                        <a href="#">
+                            <h5>Без знания языков</h5>
+                            <h6>Сбор ягод, фруктов и овощей</h6>
+                        </a>
+                    </div>
+                    <div class="vacancies-categories__item">
+                        <a href="#">
+                            <h5>с немецким</h5>
+                            <h6>Сфера обслуживания</h6>
+                        </a>
+                    </div>
+                    <div class="vacancies-categories__item">
+                        <a href="#">
+                            <h5>с английским</h5>
+                            <h6>Сфера обслуживания</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="vacancies-filter">
+                <form action="/" method="get">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-xs-12">
+                            <div class="vacancies-filter__item">
+                                <h6 class="vacancies-filter__label">Начало работы</h6>
+                                <div class="vacancies-filter__select">
+                                    <select name="beginning-work">
+                                        <option value="0">Зима</option>
+                                        <option value="1">Весна</option>
+                                        <option value="2">Лето</option>
+                                        <option value="3">Осень</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-xs-12">
+                            <div class="vacancies-filter__item">
+                                <h6 class="vacancies-filter__label">Пол</h6>
+                                <div class="vacancies-filter__select">
+                                    <select name="gender">
+                                        <option value="0">Для парней и для девушек</option>
+                                        <option value="1">Для парней</option>
+                                        <option value="2">Для девушек</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-xs-12">
+                            <div class="vacancies-filter__item">
+                                <h6 class="vacancies-filter__label">Город</h6>
+                                <div class="vacancies-filter__select">
+                                    <select name="city">
+                                        <option value="0">Любой</option>
+                                        <option value="1">Ганновер</option>
+                                        <option value="2">Росток</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="vacancies-results">
+                <h2>Результаты поиска</h2>
+                <div class="vacancies__result">
+                    <div class="row">
+                        <div class="col-lg-10 col-xs-12">
+                            <div class="vacancies__result-content row">
+                                <div class="col-lg-7 col-md-7 col-xs-12">
+                                    <div class="vacancies__result-description">
+                                        <h3>
+                                            <span class="vacancies__result-number">№55</span>
+                                            <a href="vacancies-single.html">
+                                                <span>Работа за барной стойкой и продавец (ресторан, пивное заведение).</span>
+                                            </a>
+                                        </h3>
+                                        <h6 class="gender-icon"><strong>Девушки и парни</strong></h6>
+                                        <h6 class="eng-icon">Обязательный английский</h6>
+                                        <h6 class="euro-icon">Почасовка <strong>9.20</strong> €/час</h6>
+                                        <h6 class="earning-icon">Зароботок <strong>1500-1800</strong> €/мес.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-5 col-xs-12">
+                                    <div class="vacancies__result-description no-pl">
+                                        <h6 class="calendar-icon">Можно поехать в один из периодов</h6>
+                                        <div class="vacancies__result-periods">
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 25.06 по 31.08</strong></span>
+                                                <span><strong>С 22.07 по 30.10</strong></span>
+                                            </div>
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                            </div>
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                            </div>
+                                        </div>
+                                        <h6 class="dinner-icon">питание от <strong>100-150</strong> €/мес.</h6>
+                                        <h6 class="house-icon">жильё от <strong>200</strong> €/мес</h6>
+                                        <h6 class="location-icon">вблизи <strong>Ганновер</strong></h6>
+                                        <h6 class="smaller-icon"><strong>5</strong> Осталось мест</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-xs-12">
+                            <a href="vacancies-single.html" class="vacancies__result-link">
+                                <span>Подробнее</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="vacancies__result">
+                    <div class="row">
+                        <div class="col-lg-10 col-xs-12">
+                            <div class="vacancies__result-content row">
+                                <div class="col-lg-7 col-md-7 col-xs-12">
+                                    <div class="vacancies__result-description">
+                                        <h3>
+                                            <span class="vacancies__result-number">№55</span>
+                                            <a href="vacancies-single.html">
+                                                <span>Работа за барной стойкой и продавец (ресторан, пивное заведение).</span>
+                                            </a>
+                                        </h3>
+                                        <h6 class="gender-icon"><strong>Девушки и парни</strong></h6>
+                                        <h6 class="eng-icon">Обязательный английский</h6>
+                                        <h6 class="euro-icon">Почасовка <strong>9.20</strong> €/час</h6>
+                                        <h6 class="earning-icon">Зароботок <strong>1500-1800</strong> €/мес.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-5 col-xs-12">
+                                    <div class="vacancies__result-description no-pl">
+                                        <h6 class="calendar-icon">Можно поехать в один из периодов</h6>
+                                        <div class="vacancies__result-periods">
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 25.06 по 31.08</strong></span>
+                                                <span><strong>С 22.07 по 30.10</strong></span>
+                                            </div>
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                            </div>
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                            </div>
+                                        </div>
+                                        <h6 class="dinner-icon">питание от <strong>100-150</strong> €/мес.</h6>
+                                        <h6 class="house-icon">жильё от <strong>200</strong> €/мес</h6>
+                                        <h6 class="location-icon">вблизи <strong>Ганновер</strong></h6>
+                                        <h6 class="smaller-icon"><strong>5</strong> Осталось мест</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-xs-12">
+                            <a href="vacancies-single.html" class="vacancies__result-link">
+                                <span>Подробнее</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="vacancies__result">
+                    <div class="row">
+                        <div class="col-lg-10 col-xs-12">
+                            <div class="vacancies__result-content row">
+                                <div class="col-lg-7 col-md-7 col-xs-12">
+                                    <div class="vacancies__result-description">
+                                        <h3>
+                                            <span class="vacancies__result-number">№55</span>
+                                            <a href="vacancies-single.html">
+                                                <span>Работа за барной стойкой и продавец (ресторан, пивное заведение).</span>
+                                            </a>
+                                        </h3>
+                                        <h6 class="gender-icon"><strong>Девушки и парни</strong></h6>
+                                        <h6 class="eng-icon">Обязательный английский</h6>
+                                        <h6 class="euro-icon">Почасовка <strong>9.20</strong> €/час</h6>
+                                        <h6 class="earning-icon">Зароботок <strong>1500-1800</strong> €/мес.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-5 col-xs-12">
+                                    <div class="vacancies__result-description no-pl">
+                                        <h6 class="calendar-icon">Можно поехать в один из периодов</h6>
+                                        <div class="vacancies__result-periods">
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 25.06 по 31.08</strong></span>
+                                                <span><strong>С 22.07 по 30.10</strong></span>
+                                            </div>
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                            </div>
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                            </div>
+                                        </div>
+                                        <h6 class="dinner-icon">питание от <strong>100-150</strong> €/мес.</h6>
+                                        <h6 class="house-icon">жильё от <strong>200</strong> €/мес</h6>
+                                        <h6 class="location-icon">вблизи <strong>Ганновер</strong></h6>
+                                        <h6 class="smaller-icon"><strong>5</strong> Осталось мест</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-xs-12">
+                            <a href="vacancies-single.html" class="vacancies__result-link">
+                                <span>Подробнее</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="vacancies__result">
+                    <div class="row">
+                        <div class="col-lg-10 col-xs-12">
+                            <div class="vacancies__result-content row">
+                                <div class="col-lg-7 col-md-7 col-xs-12">
+                                    <div class="vacancies__result-description">
+                                        <h3>
+                                            <span class="vacancies__result-number">№55</span>
+                                            <a href="vacancies-single.html">
+                                                <span>Работа за барной стойкой и продавец (ресторан, пивное заведение).</span>
+                                            </a>
+                                        </h3>
+                                        <h6 class="gender-icon"><strong>Девушки и парни</strong></h6>
+                                        <h6 class="eng-icon">Обязательный английский</h6>
+                                        <h6 class="euro-icon">Почасовка <strong>9.20</strong> €/час</h6>
+                                        <h6 class="earning-icon">Зароботок <strong>1500-1800</strong> €/мес.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-5 col-xs-12">
+                                    <div class="vacancies__result-description no-pl">
+                                        <h6 class="calendar-icon">Можно поехать в один из периодов</h6>
+                                        <div class="vacancies__result-periods">
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 25.06 по 31.08</strong></span>
+                                                <span><strong>С 22.07 по 30.10</strong></span>
+                                            </div>
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                            </div>
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                            </div>
+                                        </div>
+                                        <h6 class="dinner-icon">питание от <strong>100-150</strong> €/мес.</h6>
+                                        <h6 class="house-icon">жильё от <strong>200</strong> €/мес</h6>
+                                        <h6 class="location-icon">вблизи <strong>Ганновер</strong></h6>
+                                        <h6 class="smaller-icon"><strong>5</strong> Осталось мест</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-xs-12">
+                            <a href="vacancies-single.html" class="vacancies__result-link">
+                                <span>Подробнее</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="vacancies__result">
+                    <div class="row">
+                        <div class="col-lg-10 col-xs-12">
+                            <div class="vacancies__result-content row">
+                                <div class="col-lg-7 col-md-7 col-xs-12">
+                                    <div class="vacancies__result-description">
+                                        <h3>
+                                            <span class="vacancies__result-number">№55</span>
+                                            <a href="vacancies-single.html">
+                                                <span>Работа за барной стойкой и продавец (ресторан, пивное заведение).</span>
+                                            </a>
+                                        </h3>
+                                        <h6 class="gender-icon"><strong>Девушки и парни</strong></h6>
+                                        <h6 class="eng-icon">Обязательный английский</h6>
+                                        <h6 class="euro-icon">Почасовка <strong>9.20</strong> €/час</h6>
+                                        <h6 class="earning-icon">Зароботок <strong>1500-1800</strong> €/мес.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-5 col-xs-12">
+                                    <div class="vacancies__result-description no-pl">
+                                        <h6 class="calendar-icon">Можно поехать в один из периодов</h6>
+                                        <div class="vacancies__result-periods">
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 25.06 по 31.08</strong></span>
+                                                <span><strong>С 22.07 по 30.10</strong></span>
+                                            </div>
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                            </div>
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                            </div>
+                                        </div>
+                                        <h6 class="dinner-icon">питание от <strong>100-150</strong> €/мес.</h6>
+                                        <h6 class="house-icon">жильё от <strong>200</strong> €/мес</h6>
+                                        <h6 class="location-icon">вблизи <strong>Ганновер</strong></h6>
+                                        <h6 class="smaller-icon"><strong>5</strong> Осталось мест</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-xs-12">
+                            <a href="vacancies-single.html" class="vacancies__result-link">
+                                <span>Подробнее</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="vacancies__result">
+                    <div class="row">
+                        <div class="col-lg-10 col-xs-12">
+                            <div class="vacancies__result-content row">
+                                <div class="col-lg-7 col-md-7 col-xs-12">
+                                    <div class="vacancies__result-description">
+                                        <h3>
+                                            <span class="vacancies__result-number">№55</span>
+                                            <a href="vacancies-single.html">
+                                                <span>Работа за барной стойкой и продавец (ресторан, пивное заведение).</span>
+                                            </a>
+                                        </h3>
+                                        <h6 class="gender-icon"><strong>Девушки и парни</strong></h6>
+                                        <h6 class="eng-icon">Обязательный английский</h6>
+                                        <h6 class="euro-icon">Почасовка <strong>9.20</strong> €/час</h6>
+                                        <h6 class="earning-icon">Зароботок <strong>1500-1800</strong> €/мес.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-5 col-xs-12">
+                                    <div class="vacancies__result-description no-pl">
+                                        <h6 class="calendar-icon">Можно поехать в один из периодов</h6>
+                                        <div class="vacancies__result-periods">
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 25.06 по 31.08</strong></span>
+                                                <span><strong>С 22.07 по 30.10</strong></span>
+                                            </div>
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                            </div>
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                            </div>
+                                        </div>
+                                        <h6 class="dinner-icon">питание от <strong>100-150</strong> €/мес.</h6>
+                                        <h6 class="house-icon">жильё от <strong>200</strong> €/мес</h6>
+                                        <h6 class="location-icon">вблизи <strong>Ганновер</strong></h6>
+                                        <h6 class="smaller-icon"><strong>5</strong> Осталось мест</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-xs-12">
+                            <a href="vacancies-single.html" class="vacancies__result-link">
+                                <span>Подробнее</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="vacancies__result">
+                    <div class="row">
+                        <div class="col-lg-10 col-xs-12">
+                            <div class="vacancies__result-content row">
+                                <div class="col-lg-7 col-md-7 col-xs-12">
+                                    <div class="vacancies__result-description">
+                                        <h3>
+                                            <span class="vacancies__result-number">№55</span>
+                                            <a href="vacancies-single.html">
+                                                <span>Работа за барной стойкой и продавец (ресторан, пивное заведение).</span>
+                                            </a>
+                                        </h3>
+                                        <h6 class="gender-icon"><strong>Девушки и парни</strong></h6>
+                                        <h6 class="eng-icon">Обязательный английский</h6>
+                                        <h6 class="euro-icon">Почасовка <strong>9.20</strong> €/час</h6>
+                                        <h6 class="earning-icon">Зароботок <strong>1500-1800</strong> €/мес.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-5 col-xs-12">
+                                    <div class="vacancies__result-description no-pl">
+                                        <h6 class="calendar-icon">Можно поехать в один из периодов</h6>
+                                        <div class="vacancies__result-periods">
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 25.06 по 31.08</strong></span>
+                                                <span><strong>С 22.07 по 30.10</strong></span>
+                                            </div>
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                            </div>
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                            </div>
+                                        </div>
+                                        <h6 class="dinner-icon">питание от <strong>100-150</strong> €/мес.</h6>
+                                        <h6 class="house-icon">жильё от <strong>200</strong> €/мес</h6>
+                                        <h6 class="location-icon">вблизи <strong>Ганновер</strong></h6>
+                                        <h6 class="smaller-icon"><strong>5</strong> Осталось мест</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-xs-12">
+                            <a href="vacancies-single.html" class="vacancies__result-link">
+                                <span>Подробнее</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="vacancies__result">
+                    <div class="row">
+                        <div class="col-lg-10 col-xs-12">
+                            <div class="vacancies__result-content row">
+                                <div class="col-lg-7 col-md-7 col-xs-12">
+                                    <div class="vacancies__result-description">
+                                        <h3>
+                                            <span class="vacancies__result-number">№55</span>
+                                            <a href="vacancies-single.html">
+                                                <span>Работа за барной стойкой и продавец (ресторан, пивное заведение).</span>
+                                            </a>
+                                        </h3>
+                                        <h6 class="gender-icon"><strong>Девушки и парни</strong></h6>
+                                        <h6 class="eng-icon">Обязательный английский</h6>
+                                        <h6 class="euro-icon">Почасовка <strong>9.20</strong> €/час</h6>
+                                        <h6 class="earning-icon">Зароботок <strong>1500-1800</strong> €/мес.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-5 col-xs-12">
+                                    <div class="vacancies__result-description no-pl">
+                                        <h6 class="calendar-icon">Можно поехать в один из периодов</h6>
+                                        <div class="vacancies__result-periods">
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 25.06 по 31.08</strong></span>
+                                                <span><strong>С 22.07 по 30.10</strong></span>
+                                            </div>
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                            </div>
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                            </div>
+                                        </div>
+                                        <h6 class="dinner-icon">питание от <strong>100-150</strong> €/мес.</h6>
+                                        <h6 class="house-icon">жильё от <strong>200</strong> €/мес</h6>
+                                        <h6 class="location-icon">вблизи <strong>Ганновер</strong></h6>
+                                        <h6 class="smaller-icon"><strong>5</strong> Осталось мест</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-xs-12">
+                            <a href="vacancies-single.html" class="vacancies__result-link">
+                                <span>Подробнее</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="vacancies__result">
+                    <div class="row">
+                        <div class="col-lg-10 col-xs-12">
+                            <div class="vacancies__result-content row">
+                                <div class="col-lg-7 col-md-7 col-xs-12">
+                                    <div class="vacancies__result-description">
+                                        <h3>
+                                            <span class="vacancies__result-number">№55</span>
+                                            <a href="vacancies-single.html">
+                                                <span>Работа за барной стойкой и продавец (ресторан, пивное заведение).</span>
+                                            </a>
+                                        </h3>
+                                        <h6 class="gender-icon"><strong>Девушки и парни</strong></h6>
+                                        <h6 class="eng-icon">Обязательный английский</h6>
+                                        <h6 class="euro-icon">Почасовка <strong>9.20</strong> €/час</h6>
+                                        <h6 class="earning-icon">Зароботок <strong>1500-1800</strong> €/мес.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-5 col-xs-12">
+                                    <div class="vacancies__result-description no-pl">
+                                        <h6 class="calendar-icon">Можно поехать в один из периодов</h6>
+                                        <div class="vacancies__result-periods">
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 25.06 по 31.08</strong></span>
+                                                <span><strong>С 22.07 по 30.10</strong></span>
+                                            </div>
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                            </div>
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                            </div>
+                                        </div>
+                                        <h6 class="dinner-icon">питание от <strong>100-150</strong> €/мес.</h6>
+                                        <h6 class="house-icon">жильё от <strong>200</strong> €/мес</h6>
+                                        <h6 class="location-icon">вблизи <strong>Ганновер</strong></h6>
+                                        <h6 class="smaller-icon"><strong>5</strong> Осталось мест</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-xs-12">
+                            <a href="vacancies-single.html" class="vacancies__result-link">
+                                <span>Подробнее</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="vacancies__result">
+                    <div class="row">
+                        <div class="col-lg-10 col-xs-12">
+                            <div class="vacancies__result-content row">
+                                <div class="col-lg-7 col-md-7 col-xs-12">
+                                    <div class="vacancies__result-description">
+                                        <h3>
+                                            <span class="vacancies__result-number">№55</span>
+                                            <a href="vacancies-single.html">
+                                                <span>Работа за барной стойкой и продавец (ресторан, пивное заведение).</span>
+                                            </a>
+                                        </h3>
+                                        <h6 class="gender-icon"><strong>Девушки и парни</strong></h6>
+                                        <h6 class="eng-icon">Обязательный английский</h6>
+                                        <h6 class="euro-icon">Почасовка <strong>9.20</strong> €/час</h6>
+                                        <h6 class="earning-icon">Зароботок <strong>1500-1800</strong> €/мес.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-5 col-xs-12">
+                                    <div class="vacancies__result-description no-pl">
+                                        <h6 class="calendar-icon">Можно поехать в один из периодов</h6>
+                                        <div class="vacancies__result-periods">
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 25.06 по 31.08</strong></span>
+                                                <span><strong>С 22.07 по 30.10</strong></span>
+                                            </div>
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                            </div>
+                                            <div class="vacancies__result-periods-item">
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                                <span><strong>С 15.08 по 17.11</strong></span>
+                                            </div>
+                                        </div>
+                                        <h6 class="dinner-icon">питание от <strong>100-150</strong> €/мес.</h6>
+                                        <h6 class="house-icon">жильё от <strong>200</strong> €/мес</h6>
+                                        <h6 class="location-icon">вблизи <strong>Ганновер</strong></h6>
+                                        <h6 class="smaller-icon"><strong>5</strong> Осталось мест</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-xs-12">
+                            <a href="vacancies-single.html" class="vacancies__result-link">
+                                <span>Подробнее</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // -->
+</main>
+<!-- // -->
+<!-- Begin footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <a href="#" class="footer__logo">
+                    <img src="img/logo.png" alt="Germanyzav">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <nav class="footer__nav">
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Регистрация</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                        <li><a href="#">Вопрос-ответ</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                <div class="footer__contact">
+                    <h6>График работы:</h6>
+                    <h6>Пн-Пт с 10:00 до 18:00</h6>
+                    <h5><a href="tel:063 506 05 34">063 506 05 34</a></h5>
+                    <h5><a href="tel:050 064 87 23">050 064 87 23</a></h5>
+                    <h5><a href="tel:097 577 34 26">097 577 34 26</a></h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                <div class="footer__social">
+                    <h6 class="footer__social-title">Социальные сети</h6>
+                    <div class="social-list">
+                        <a href="#" class="social-item social-item_telegram"></a>
+                        <a href="#" class="social-item social-item_facebook"></a>
+                        <a href="#" class="social-item social-item_instagram"></a>
+                    </div>
+                    <h6><a href="mailto:info@germanyzav.com.ua">info@germanyzav.com.ua</a></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- // -->
+<!-- Begin modals -->
+<div class="modal question-modal fadeIn animated" tabindex="-1" role="dialog" id="question-modal">
+    <div class="modal-dialog" role="document">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <div class="modal-content">
+            <div class="modal__field">
+                <label for="question-name">Ваше Имя</label>
+                <input id="question-name" type="text" placeholder="">
+            </div>
+            <div class="modal__field">
+                <label for="question-email">Email</label>
+                <input id="question-email" type="email" placeholder="">
+            </div>
+            <div class="modal__label">Оплачивал уже услуги?</div>
+            <div class="modal__radio-field-group">
+                <div class="modal__radio-field">
+                    <input type="radio" name="paid" id="question-yes" checked placeholder="">
+                    <label for="question-yes">Да</label>
+                </div>
+                <div class="modal__radio-field">
+                    <input type="radio" name="paid" id="question-no" placeholder="">
+                    <label for="question-no">Нет</label>
+                </div>
+            </div>
+            <div class="modal__field">
+                <label for="question-message">Сообщение</label>
+                <textarea id="question-message" placeholder=""></textarea>
+            </div>
+            <div class="modal__btn">
+                <input type="submit" class="btn" value="Отправить">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Begin scripts -->
+<script src="js/libs.min.js"></script>
+<script src="js/common.js"></script>
+<!-- // -->
+</body>
+</html>
